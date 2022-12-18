@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <div>
+        <form name="myForm">
+            <label for="total" class="form-label"><b>Количество подписаний:</b></label>
+            <input type="text" class="form-control" value="1" id="total" required>
+        </form>
+    </div>
+    <div>
+        <button onclick="getAllCerts()"><p>Выбрать сертификат</p></button>
+        <div id="certList">
+        </div>
+    </div>
+</div>
+</body>
+<script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+<script src="WEB-INF/scripts/lodash.js"></script>
+<script src="WEB-INF/scripts/cadesplugin_api.js"></script>
+<script src="WEB-INF/csp.plugin.service.js"></script>
+<script src="WEB-INF/view/cert.view.list.js"></script>
+<script src="WEB-INF/csp.service.js"></script>
+</html>
